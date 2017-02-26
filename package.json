@@ -1,6 +1,6 @@
 {
   "name": "mobi-plugin-table",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The table plugin for Mobi.css",
   "main": "index.scss",
   "scripts": {
