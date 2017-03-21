@@ -60,6 +60,76 @@
     </tr>
   </tbody>
 </table>
+<pre><code class="language-html">&lt;table class=&quot;table&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Author&lt;/th&gt;&lt;th&gt;Language&lt;/th&gt;&lt;th&gt;Size&lt;/th&gt;&lt;th&gt;Features&lt;/th&gt;&lt;th&gt;GitHub&lt;/th&gt;&lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;&lt;td&gt;...&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;...&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;...&lt;/td&gt;&lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</code></pre>
+<p>If you are viewing the above case in mobile device, then you'll find that the table renders out of the viewable area. We usually use the <code>.scroll-view</code> wrapper to make your table scrollable.</p>
+<div class="scroll-view">
+  <table class="table">
+    <thead>
+      <tr><th>Name</th><th>Author</th><th>Language</th><th>Size</th><th>Features</th><th>GitHub</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="http://getmobicss.com/">Mobi.css</a></td>
+        <td><a href="https://github.com/xcatliu">xcatliu</a></td>
+        <td>Sass</td>
+        <td>3.6kb</td>
+        <td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+        <td><a href="https://github.com/xcatliu/mobi.css">Mobi.css GitHub</a></td>
+      </tr>
+      <tr>
+        <td><a href="http://getskeleton.com/">Skeleton</a></td>
+        <td><a href="https://github.com/dhg">Dave Gamache</a></td>
+        <td>Css</td>
+        <td>3.2kb</td>
+        <td><i class="fa fa-star"></i></td>
+        <td><a href="https://github.com/dhg/Skeleton/">Skeleton GitHub</a></td>
+      </tr>
+      <tr>
+        <td><a href="http://purecss.io/">Pure.css</a></td>
+        <td><a href="https://github.com/yahoo">Yahoo Inc.</a></td>
+        <td>Css</td>
+        <td>4.6kb</td>
+        <td><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+        <td><a href="https://github.com/yahoo/pure/">Pure.css GitHub</a></td>
+      </tr>
+      <tr>
+        <td><a href="http://v4-alpha.getbootstrap.com/">Bootstrap v4</a></td>
+        <td><a href="https://github.com/twbs">Twitter</a></td>
+        <td>Sass, JavaScript</td>
+        <td>20.1kb</td>
+        <td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+        <td><a href="https://github.com/twbs/bootstrap/tree/v4-dev">Bootstrap v4 GitHub</a></td>
+      </tr>
+      <tr>
+        <td><a href="http://goratchet.com/"><s>Ratchet</s></a></td>
+        <td colspan="5"><a href="https://github.com/twbs/ratchet/issues/792"><s>This project is dying.</s></a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<pre><code class="language-html">&lt;div class=&quot;scroll-view&quot;&gt;
+  &lt;table class=&quot;table&quot;&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Author&lt;/th&gt;&lt;th&gt;Language&lt;/th&gt;&lt;th&gt;Size&lt;/th&gt;&lt;th&gt;Features&lt;/th&gt;&lt;th&gt;GitHub&lt;/th&gt;&lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;&lt;td&gt;...&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;...&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;...&lt;/td&gt;&lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/div&gt;
+</code></pre>
 <p>Caption in table:</p>
 <table class="table">
   <caption>Table Caption</caption>
