@@ -1,7 +1,7 @@
 {
   "name": "mobi-plugin-table",
   "version": "0.1.6",
-  "description": "The table plugin for Mobi.css",
+  "description": "The basic styles for table.",
   "main": "index.scss",
   "scripts": {
     "start": "gulp",
