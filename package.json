@@ -1,6 +1,6 @@
 {
   "name": "mobi-plugin-table",
-  "version": "0.1.6",
+  "version": "1.0.0",
   "description": "The basic styles for table.",
   "main": "index.scss",
   "scripts": {
